@@ -6,6 +6,7 @@ import Hero1 from "@/components/homes/home-1/heros/Hero1";
 import Header1Multipage from "@/components/headers/Header1Multipage";
 import { menuItems } from "@/data/menu";
 export const metadata = {
+  robots: 'noindex,nofollow',
   title:
     "Home 1 Main Demo MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
   description:
