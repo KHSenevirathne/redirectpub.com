@@ -13,7 +13,8 @@ import Service2 from "@/components/homes/home-1/Service2";
 import { features5 } from "@/data/features";
 import Brands2 from "@/components/homes/home-1/Brands2";
 import Brands from "@/components/homes/home-1/Brands";
-import { menuItems } from "@/data/menu";
+import { mainDemoOnepage } from "@/data/menu";
+import Header1 from "@/components/headers/Header1";
 export const metadata = {
   title:
     "Main Services 2 || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
@@ -26,7 +27,7 @@ export default function MainServicesPage2() {
       <div className="theme-main">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar">
-            <Header1Multipage links={menuItems} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
           <main id="main">
             <>

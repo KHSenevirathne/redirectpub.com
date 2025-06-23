@@ -228,9 +228,9 @@ export const boldOnepage = [
 ];
 
 export const mainDemoOnepage = [
-  { href: "#home", text: "Home", className: "active" },
-  { href: "#about", text: "About" },
-  { href: "#services", text: "Services" },
+  { href: "/", text: "Home", className: "active" },
+  { href: "/main-pages-about-2", text: "About" },
+  { href: "/main-pages-services-2", text: "Services" },
   { href: "#portfolio", text: "Portfolio" },
   { href: "#blog", text: "Blog" },
   { href: "#contact", text: "Contact" },

@@ -46,14 +46,22 @@ export default function Header1({ links }) {
         </ul>
         <ul className="items-end clearlist local-scroll">
           {/* Languages */}
-          <LanguageSelect />
+          {/* <LanguageSelect /> */}
           {/* End Languages */}
           <li>
-            <a href="#contact" className="opacity-1 no-hover">
+            <Link href="/main-pages-contact-1" className="opacity-1 no-hover">
               <span className="link-hover-anim underline" data-link-animate="y">
-                Let's work together
+                <span className="link-strong link-strong-unhovered">
+                  Let's work together
+                </span>
+                <span
+                  className="link-strong link-strong-hovered"
+                  aria-hidden="true"
+                >
+                  Let's work together
+                </span>
               </span>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

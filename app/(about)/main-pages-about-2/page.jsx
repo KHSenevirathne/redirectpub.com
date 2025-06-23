@@ -16,7 +16,8 @@ import Features from "@/components/homes/home-1/Features";
 import Brands2 from "@/components/homes/home-1/Brands2";
 import Brands from "@/components/homes/home-1/Brands";
 import Benefits from "@/components/homes/home-1/Benefits";
-import { menuItems } from "@/data/menu";
+import { mainDemoOnepage} from "@/data/menu";
+import Header1 from "@/components/headers/Header1";
 
 export const metadata = {
   title:
@@ -30,7 +31,7 @@ export default function MainAboutPage2() {
       <div className="theme-main">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar">
-            <Header1Multipage links={menuItems} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
           <main id="main">
             <section className="page-section pt-0 pb-0" id="home">

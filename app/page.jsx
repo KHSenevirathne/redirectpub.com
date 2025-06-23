@@ -4,13 +4,14 @@ import dynamic from "next/dynamic";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
 import Hero1 from "@/components/homes/home-1/heros/Hero1";
 import Header1Multipage from "@/components/headers/Header1Multipage";
-import { menuItems } from "@/data/menu";
+import { mainDemoOnepage } from "@/data/menu";
+import Header1 from "@/components/headers/Header1";
 export const metadata = {
   robots: 'noindex,nofollow',
   title:
-    "Home 1 Main Demo MultiPage || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "RedirectPub",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "The Best Agency Service in UK",
 };
 export default function Home1MainDemoMultiPage() {
   return (
@@ -18,7 +19,7 @@ export default function Home1MainDemoMultiPage() {
       <div className="theme-main">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar">
-            <Header1Multipage links={menuItems} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
           <main id="main">
             <ParallaxContainer
