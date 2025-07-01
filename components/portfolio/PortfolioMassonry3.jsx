@@ -105,7 +105,7 @@ export default function PortfolioMassonry3() {
                 </a>
               ) : (
                 <Link
-                  href={`/main-portfolio-single-1/${item.id}`}
+                  href={`/our-work/${item.id}`}
                   className={item.linkClassName}
                 >
                   <div className="work-img">

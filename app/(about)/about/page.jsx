@@ -21,9 +21,9 @@ import Header1 from "@/components/headers/Header1";
 
 export const metadata = {
   title:
-    "Main About 2 || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "About || RedirectPub",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "The Best Agency Service in UK",
 };
 export default function MainAboutPage2() {
   return (

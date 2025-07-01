@@ -229,11 +229,11 @@ export const boldOnepage = [
 
 export const mainDemoOnepage = [
   { href: "/", text: "Home", className: "active" },
-  { href: "/main-pages-about-2", text: "About" },
-  { href: "/main-pages-services-2", text: "Services" },
-  { href: "#portfolio", text: "Portfolio" },
-  { href: "#blog", text: "Blog" },
-  { href: "#contact", text: "Contact" },
+  { href: "/services", text: "Services" },
+  { href: "/our-work", text: "Our Work" },
+  { href: "#contact", text: "For Agencies" },
+  { href: "/about", text: "About" },
+  { href: "/blog", text: "Blog" },
 ];
 
 export const menuItems = [

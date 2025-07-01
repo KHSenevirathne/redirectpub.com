@@ -12,13 +12,16 @@ import React from "react";
 import Faq from "@/components/common/Faq";
 import { menuItems } from "@/data/menu";
 import Contact2 from "@/components/homes/home-1/Contact2";
+import { mainDemoOnepage } from "@/data/menu";
+import Header1 from "@/components/headers/Header1";
+
 
 const dark = false;
 export const metadata = {
   title:
-    "Main About 1 || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Contact || RedirectPub",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "The Best Agency Service in UK",
 };
 export default function MainAboutPage1() {
   return (
@@ -26,7 +29,7 @@ export default function MainAboutPage1() {
       <div className="theme-main">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar">
-            <Header1Multipage links={menuItems} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
           <main id="main">
             <section className="page-section pt-0 pb-0" id="home">

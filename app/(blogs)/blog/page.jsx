@@ -2,19 +2,19 @@ import Footer1 from "@/components/footers/Footer1";
 
 import ParallaxContainer from "@/components/common/ParallaxContainer";
 import Image from "next/image";
-import Header1Multipage from "@/components/headers/Header1Multipage";
 import AnimatedText from "@/components/common/AnimatedText";
 import Link from "next/link";
 import { blogs19 } from "@/data/blogs";
 import Pagination from "@/components/common/Pagination";
 import Widget1 from "@/components/blog/widgets/Widget1";
-import { menuItems } from "@/data/menu";
+import { mainDemoOnepage } from "@/data/menu";
+import Header1 from "@/components/headers/Header1";
 
 export const metadata = {
   title:
-    "Main Blog Columns Page 2 Col || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Blog || RedirectPub",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "The Best Agency Service in UK",
 };
 export default function MainBlogColumnsPage2Col() {
   return (
@@ -22,7 +22,7 @@ export default function MainBlogColumnsPage2Col() {
       <div className="theme-main">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar">
-            <Header1Multipage links={menuItems} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
           <main id="main">
             <section className="page-section pt-0 pb-0" id="home">
@@ -80,7 +80,7 @@ export default function MainBlogColumnsPage2Col() {
                           <div className="post-prev-container">
                             <div className="post-prev-img">
                               <Link
-                                href={`/main-blog-single-sidebar-right/${elm.id}`}
+                                href={`/blog/${elm.id}`}
                               >
                                 <Image
                                   src={elm.imgSrc}
@@ -92,7 +92,7 @@ export default function MainBlogColumnsPage2Col() {
                             </div>
                             <h4 className="post-prev-title">
                               <Link
-                                href={`/main-blog-single-sidebar-right/${elm.id}`}
+                                href={`/blog/${elm.id}`}
                               >
                                 {elm.title}
                               </Link>

@@ -4,9 +4,9 @@ import React from "react";
 import Image from "next/image";
 export const metadata = {
   title:
-    "Page Not Found || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Page Not Found || RedirectPub",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "The Best Agency Service in UK",
 };
 export default function MainAboutPage1() {
   return (
@@ -46,14 +46,14 @@ export default function MainAboutPage1() {
                 <div className="inner-nav desktop-nav">
                   <ul className="clearlist scroll-nav local-scroll justify-content-end">
                     <li className="active">
-                      <a href="mailto:ibthemes21@gmail.com">
+                      <a href="mailto:redirectpub@gmail.com">
                         <i className="mi-email align-center" />
-                        ibthemes21@gmail.com
+                        redirectpub@gmail.com
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="mi-call align-center" /> 0307-567-890
+                        <i className="mi-call align-center" /> 0123-567-890
                       </a>
                     </li>
                   </ul>

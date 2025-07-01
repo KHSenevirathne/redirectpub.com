@@ -13,18 +13,18 @@ export const contactItems = [
   {
     iconClass: "mi-email",
     title: "Email",
-    text: "ibthemes21@gmail.com",
+    text: "redirectpub@gmail.com",
     link: {
-      url: "mailto:ibthemes21@gmail.com",
+      url: "mailto:redirectpub@gmail.com",
       text: "Say Hello",
     },
   },
   {
     iconClass: "mi-mobile",
     title: "Phone",
-    text: "+1 837 652 8800",
+    text: "+1 234 657 8910",
     link: {
-      url: "tel:+61383767284",
+      url: "tel:+01234567890",
       text: "Call now",
     },
   },
