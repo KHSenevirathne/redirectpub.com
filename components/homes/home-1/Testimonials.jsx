@@ -12,9 +12,8 @@ export default function Testimonials() {
             <div className="row">
               <div className="col-md-10 offset-md-1 text-center">
                 <h2 className="section-title mb-70 mb-sm-40">
-                  Resonance is trusted by
-                  <span className="mark-decoration-1">10,000+</span>
-                  customers.
+                  Talking is {" "}
+                  <span className="mark-decoration-1">going on.</span>
                 </h2>
               </div>
             </div>

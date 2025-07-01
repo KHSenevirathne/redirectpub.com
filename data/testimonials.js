@@ -1,18 +1,18 @@
 export const testimonials = [
   {
-    quote: `This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!`,
+    quote: `RedirectPub offers affordable prices, prompt service, and meticulous attention to detail. It was simple and stress-free to work with them. To anyone in need of a web developer, I heartily suggest them.`,
     author: "Adam Peterson",
     role: "Business Owner",
     image: "/assets/images/ts1-user.jpg",
   },
   {
-    quote: `This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!`,
+    quote: `I have collaborated on multiple websites with RedirectPub, a reliable and beneficial partner. I was really pleased with the end result of my particular projects, which included both WordPress and WooCommerce. They have excellent communication, reasonable prices, and excellent quality all around. I heartily endorse this group.`,
     author: "Adam Peterson",
     role: "Business Owner",
     image: "/assets/images/ts1-user.jpg",
   },
   {
-    quote: `This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is one of the absolute best I've ever had the pleasure of interacting with. Quick, courteous, and extremely helpful!`,
+    quote: `My business worked with RedirectPub on a crucial site development project that included unique interactive elements and Wordpress theming. We are quite pleased with the calibre of the work, the comprehensive correspondence during the process, and the post-launch support. The group is very informative and quick to respond.`,
     author: "Adam Peterson",
     role: "Business Owner",
     image: "/assets/images/ts1-user.jpg",

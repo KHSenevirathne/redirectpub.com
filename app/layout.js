@@ -69,7 +69,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="appear-animate body">{children}</body>
+      <body suppressHydrationWarning className="appear-animate body">{children}</body>
     </html>
   );
 }

@@ -1,27 +1,27 @@
 export const faqs = [
   {
     id: 1,
-    question: "01. Discussion",
+    question: "01. What does your company do?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.",
+      "We are a web development firm focused on delivering top-tier, tailored solutions that empower clients with full control throughout the project lifecycle. We partner with diverse businesses to provide reliable, user-friendly custom web development services.",
   },
   {
     id: 2,
-    question: "02. Design",
+    question: "02. Do you work with companies of all sizes?",
     answer:
-      "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet dignissim pellentesque felis.",
+      "Yes, we collaborate with web agencies, startups, small and medium businesses, and large enterprises. If you seek high-quality web development, we’re likely the perfect match for your needs.",
   },
   {
     id: 3,
-    question: "03. Development",
+    question: "03. Can you guarantee results?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "As a dependable and accessible web development service, we back our work with guarantees, including risk-free trials, code quality assurances, and lifetime post-delivery support.",
   },
   {
     id: 4,
-    question: "04. Production",
+    question: "04. How do we communicate?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "We offer flexible communication options, including video calls, Slack channels, or emails, based on your preference. Additionally, our custom client platform streamlines file sharing, discussions, payments, and invoice downloads.",
   },
 ];
 

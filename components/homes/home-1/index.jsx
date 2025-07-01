@@ -34,7 +34,7 @@ export default function Home1({ onePage = false, dark = false }) {
             <div className="col-md-6">
               <h2 className="section-caption mb-xs-10">Our Story</h2>
               <h3 className="section-title mb-0">
-                <AnimatedText text="Better way to create stanning layouts." />
+                <AnimatedText text="Create, Motivate, Make a Difference." />
               </h3>
             </div>
             <div className="col-md-5 offset-md-1 relative text-start text-md-end pt-40 pt-sm-20 local-scroll">
@@ -202,8 +202,7 @@ export default function Home1({ onePage = false, dark = false }) {
           <div className="row text-center wow fadeInUp">
             <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
               <p className="section-descr mb-50 mb-sm-30">
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+                You can trust our web development services.
               </p>
               <div className="local-scroll">
                 {onePage ? (
@@ -211,14 +210,14 @@ export default function Home1({ onePage = false, dark = false }) {
                     href="#contact"
                     className="btn btn-mod btn-large btn-round btn-hover-anim"
                   >
-                    <span>Contact us</span>
+                    <span>start a conversation</span>
                   </a>
                 ) : (
                   <Link
                     href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
                     className="btn btn-mod btn-large btn-round btn-hover-anim"
                   >
-                    <span>Contact us</span>
+                    <span>start a conversation</span>
                   </Link>
                 )}
               </div>

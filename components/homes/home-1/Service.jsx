@@ -9,7 +9,7 @@ export default function Service() {
         <div className="col-lg-6 mb-md-60 mb-sm-30">
           <h2 className="section-caption mb-xs-10">Our Services</h2>
           <h3 className="section-title mb-30">
-            <AnimatedText text="We provide the best development solutions." />
+            <AnimatedText text="What We Carry Out" />
           </h3>
           <div className="row">
             <div className="col-lg-10">
@@ -17,8 +17,7 @@ export default function Service() {
                 className="section-descr mb-50 mb-sm-30 wow fadeInUp"
                 data-wow-delay="0.4s"
               >
-                The power of design help us to solve complex problems and
-                cultivate business solutions.
+                Get access to a variety of services. Save resources and time. Quickly bring in expertise. To turn their brilliant concepts and designs into useful online products, agencies and companies employ our web development services.
               </p>
             </div>
           </div>
@@ -36,7 +35,7 @@ export default function Service() {
                 aria-selected="true"
                 data-bs-toggle="tab"
               >
-                Brand Strategy <span className="number">01</span>
+                White-Label Web Development <span className="number">01</span>
               </a>
             </li>
             <li role="presentation">
@@ -47,7 +46,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Art Direction <span className="number">02</span>
+                CMS Integrations <span className="number">02</span>
               </a>
             </li>
             <li role="presentation">
@@ -58,7 +57,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Creative Design <span className="number">03</span>
+                Front-End Coding <span className="number">03</span>
               </a>
             </li>
             <li role="presentation">
@@ -69,7 +68,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Development <span className="number">04</span>
+                Web Apps Development <span className="number">04</span>
               </a>
             </li>
             <li role="presentation">
@@ -80,7 +79,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Photography <span className="number">05</span>
+                E-commerce Websites <span className="number">05</span>
               </a>
             </li>
             <li role="presentation">
@@ -91,7 +90,7 @@ export default function Service() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Marketing <span className="number">06</span>
+                Additional Services <span className="number">06</span>
               </a>
             </li>
           </ul>
@@ -110,11 +109,9 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Brand Strategy</h4>
+                  <h4 className="services-title">White-Label Web Development</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    A specialized service enabling agencies to outsource web development projects, offering fully customizable solutions tailored to their needs to enhance business offerings and achieve goals.
                   </p>
                 </div>
               </div>
@@ -135,11 +132,9 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Art Direction</h4>
+                  <h4 className="services-title">CMS Integrations</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Expertise in diverse platforms, from static site generators to advanced CMS solutions, including WordPress, HubSpot, Squarespace, Hugo, Webflow, and others, to meet any project’s requirements.
                   </p>
                 </div>
               </div>
@@ -160,11 +155,9 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Creative Design</h4>
+                  <h4 className="services-title">Front-End Coding</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Ideal for teams focused on back-end development, our experts deliver pixel-perfect, hand-crafted code tailored to specifications, improving code quality and accelerating development.
                   </p>
                 </div>
               </div>
@@ -185,11 +178,9 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Development</h4>
+                  <h4 className="services-title">Web Apps Development</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Custom web application development using a tailored tech stack, specializing in PHP-based applications with React and Vue to meet unique project demands.
                   </p>
                 </div>
               </div>
@@ -210,11 +201,9 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Photography</h4>
+                  <h4 className="services-title">E-commerce Websites</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Building tailored eCommerce solutions, from simple one-page stores to complex platforms, using WooCommerce, Shopify, BigCommerce, and more to match business needs.
                   </p>
                 </div>
               </div>
@@ -235,11 +224,9 @@ export default function Service() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Marketing</h4>
+                  <h4 className="services-title">Additional Services</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    Comprehensive web solutions, including email template coding, marketing landing pages, alternative CMS integrations, headless setups, and more, providing end-to-end development support.
                   </p>
                 </div>
               </div>

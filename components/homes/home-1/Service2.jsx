@@ -35,7 +35,7 @@ export default function Service2() {
                 aria-selected="true"
                 data-bs-toggle="tab"
               >
-                Brand Strategy <span className="number">01</span>
+                Web Design <span className="number">01</span>
               </a>
             </li>
             <li role="presentation">
@@ -46,7 +46,7 @@ export default function Service2() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Art Direction <span className="number">02</span>
+                Brand Identity <span className="number">02</span>
               </a>
             </li>
             <li role="presentation">
@@ -57,7 +57,7 @@ export default function Service2() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Creative Design <span className="number">03</span>
+                Digital Marketing <span className="number">03</span>
               </a>
             </li>
             <li role="presentation">
@@ -68,7 +68,7 @@ export default function Service2() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Development <span className="number">04</span>
+                Motion Graphics <span className="number">04</span>
               </a>
             </li>
             <li role="presentation">
@@ -79,7 +79,7 @@ export default function Service2() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Photography <span className="number">05</span>
+                SEO <span className="number">05</span>
               </a>
             </li>
             <li role="presentation">
@@ -90,7 +90,7 @@ export default function Service2() {
                 aria-selected="false"
                 data-bs-toggle="tab"
               >
-                Marketing <span className="number">06</span>
+                HTML/CSS Coding <span className="number">06</span>
               </a>
             </li>
           </ul>
@@ -109,11 +109,9 @@ export default function Service2() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Brand Strategy</h4>
+                  <h4 className="services-title">Web Design</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    A website defines digital identity through thoughtful planning, responsive design, intuitive navigation, and engaging storytelling, leaving a lasting impression on users.
                   </p>
                 </div>
               </div>
@@ -134,11 +132,9 @@ export default function Service2() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Art Direction</h4>
+                  <h4 className="services-title">Brand Identity</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    We craft distinctive corporate identities through logo design, visual systems, typography, color schemes, and messaging, backed by comprehensive brand guidelines.
                   </p>
                 </div>
               </div>
@@ -159,11 +155,9 @@ export default function Service2() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Creative Design</h4>
+                  <h4 className="services-title">Digital Marketing</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    We blend storytelling with multi-channel marketing—email, PPC, and content—driven by data analytics and audience insights to boost engagement and conversions.
                   </p>
                 </div>
               </div>
@@ -184,11 +178,9 @@ export default function Service2() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Development</h4>
+                  <h4 className="services-title">Motion Graphics</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    We craft dynamic motion graphics and 3D animations that enhance brand stories, captivate audiences, and boost conversions across all digital platforms.
                   </p>
                 </div>
               </div>
@@ -209,11 +201,9 @@ export default function Service2() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Photography</h4>
+                  <h4 className="services-title">SEO</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    We employ AI-powered SEO strategies, including keyword research, technical optimization, and link-building, to boost rankings and ensure long-term visibility.
                   </p>
                 </div>
               </div>
@@ -234,11 +224,14 @@ export default function Service2() {
             >
               <div className="services-text">
                 <div className="services-text-container">
-                  <h4 className="services-title">Marketing</h4>
+                  <h4 className="services-title">HTML/CSS Coding</h4>
                   <p className="text-gray mb-0">
-                    The core identity reflects consistent associations with the
-                    brand whereas the extended identity involves the intricate
-                    details of the brand that help generate a constant motif.
+                    - Design to HTML<br />
+                    - Responsive Optimization <br />
+                    - Modifications to Existing Websites <br />
+                    - Interactive/Storytelling Websites <br />
+                    - Landing Page Conversions
+
                   </p>
                 </div>
               </div>

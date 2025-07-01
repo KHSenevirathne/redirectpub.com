@@ -59,8 +59,7 @@ export default function MainServicesPage2() {
                               data-wow-delay="0.6s"
                               data-wow-duration="1.2s"
                             >
-                              The power of design help us to solve complex
-                              problems and cultivate business solutions.
+                              RedirectPub offers everything from web design to corporate identity, digital marketing to mobile and brand positioning.
                             </p>
                           </div>
                         </div>
@@ -240,8 +239,7 @@ export default function MainServicesPage2() {
                   <div className="row text-center wow fadeInUp">
                     <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                       <p className="section-descr mb-50 mb-sm-30">
-                        The power of design help us to solve complex problems
-                        and cultivate business solutions.
+                        Do You Need Something Else? Yes, we are able to assist.
                       </p>
                       <div className="local-scroll">
                         <Link

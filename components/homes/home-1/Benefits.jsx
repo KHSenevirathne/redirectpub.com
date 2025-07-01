@@ -9,7 +9,7 @@ export default function Benefits() {
         {/* Text */}
         <div className="col-md-12 col-lg-3 mb-md-50">
           <h2 className="section-caption mb-xs-10">Primary Benefits</h2>
-          <h3 className="section-title-small mb-40">Why choose Resonance?</h3>
+          <h3 className="section-title-small mb-40">What makes us different?</h3>
           <div className="section-line" />
         </div>
         {/* End Text */}

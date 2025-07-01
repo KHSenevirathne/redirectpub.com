@@ -53,7 +53,7 @@ export default function MainAboutPage2() {
                             className="wow charsAnimIn"
                             data-splitting="chars"
                           >
-                            <AnimatedText text="Hey! It's Resonance Creative Studio Here." />
+                            <AnimatedText text="Hey! It's RedirectPub Here." />
                           </span>
                         </h1>
                         <div className="row">
@@ -63,8 +63,7 @@ export default function MainAboutPage2() {
                               data-wow-delay="0.6s"
                               data-wow-duration="1.2s"
                             >
-                              We are a full-service creative studio creating
-                              beautiful digital experiences and products.
+                              RedirectPub is more than a digital agency—it’s a catalyst for transformation. Founded by visionary entrepreneur Nuwan Wackwella, our agency blends global perspectives with innovative strategies to deliver exceptional results. From startups to established enterprises, we empower our clients to navigate the complexities of the digital era with confidence.
                             </p>
                           </div>
                         </div>
@@ -150,22 +149,19 @@ export default function MainAboutPage2() {
                       <h3 className="h5">Our Mission</h3>
 
                       <p className="text-gray">
-                        Resonance is an innovative and dynamic full-service
-                        creative studio that is passionate about crafting
-                        exceptional digital experiences and products. We
-                        specialize in branding, design, and engineering, and we
-                        are committed to producing work that not only looks
-                        amazing but also functions seamlessly.
+                        to establish ourselves as the top option for companies seeking a reputable coding partner. Consider coding and RedirectPub.
                       </p>
 
                       <h3 className="h5">Our Vision</h3>
 
+                      <p className="text-gray">
+                        growth that is prudent and consistent and that benefits all parties involved.
+                      </p>
+
+                      <h3 className="h5">Our Values</h3>
+
                       <p className="text-gray mb-0">
-                        We work closely with our clients to develop websites,
-                        apps, and other digital products that are not only
-                        visually stunning but also intuitive and user-friendly.
-                        We always strive to ensure that our clients are
-                        completely satisfied with the final product.
+                        Win-Win, Trust,  Superior Quality, Openness, Collaboration of Talent.
                       </p>
                     </div>
                   </div>

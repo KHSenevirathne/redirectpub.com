@@ -31,7 +31,7 @@ export default function Promo() {
             <div className="row">
               <div className="col-lg-10">
                 <h2 className="section-title mb-60 mb-sm-30">
-                  Awesome Template With Clean Design
+                  Custom Websites With Clean Design
                 </h2>
               </div>
             </div>
