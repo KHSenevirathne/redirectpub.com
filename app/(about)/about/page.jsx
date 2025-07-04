@@ -206,7 +206,7 @@ export default function MainAboutPage2() {
                       data-wow-delay="0.2s"
                     >
                       <Link
-                        href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
+                        href={`/contact`}
                         className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                       >
                         <span>Request Price</span>
@@ -298,7 +298,7 @@ export default function MainAboutPage2() {
                       data-wow-offset={255}
                     >
                       <h2 className="section-title mb-50 mb-sm-20">
-                        How we work?
+                        Got Questions?
                       </h2>
                       <Faq />
                       <div className="local-scroll">

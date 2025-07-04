@@ -39,17 +39,17 @@ export default function MainPortfolioPageMasonry3Col() {
                             className="wow charsAnimIn"
                             data-splitting="chars"
                           >
-                            <AnimatedText text="Portfolio" />
+                            <AnimatedText text="A Few Selected Projects" />
                           </span>
                         </h1>
                         <div className="row">
-                          <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                          <div className="col-lg-10 offset-lg-1">
                             <p
-                              className="section-descr mb-0 wow fadeIn"
-                              data-wow-delay="0.2s"
+                              className="section-descr mb-0 wow fadeInUp"
+                              data-wow-delay="0.6s"
                               data-wow-duration="1.2s"
                             >
-                              Where every detail counts, our work stands out.
+                              Only a small portion of the websites we have created for our incredible clients over the years are included in this presentation. Case studies that highlight our proficiency in front-end development, site design, and platform integrations such as WordPress, Shopify, Hubspot, Craft CMS, and others are included.
                             </p>
                           </div>
                         </div>

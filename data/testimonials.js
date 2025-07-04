@@ -54,42 +54,43 @@ export const testimonials2 = [
 
 export const testimonials3 = [
   {
-    text: "Beautiful template, nice code and easy to customize. Optimization, structure and pages are very good for SEO basics.",
-    author: "Thomas Johnson",
-    role: "UI/UX designer",
+    text: "RedirectPub provided seamless service and detail-oriented web development. Their team made the process efficient and worry-free.",
+    author: "Adam Peterson",
+    role: "Business Owner",
     imgSrc: "/assets/images/demo-gradient/user-1.jpg",
   },
   {
-    text: "This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality.",
-    author: "Alice Watson",
-    role: "3D artist",
+    text: "We partnered on several WordPress and WooCommerce sites. Great results, responsive team, and very fair pricing throughout.",
+    author: "Adam Peterson",
+    role: "Business Owner",
     imgSrc: "/assets/images/demo-gradient/user-2.jpg",
   },
   {
-    text: "A remarkable model, everything has been thought out with talent, the design, the responsiveness, the various adaptations.",
-    author: "Peter Braun",
-    role: "Business owner",
+    text: "Our project included custom features and theming. RedirectPub impressed with quality, communication, and post-launch support.",
+    author: "Adam Peterson",
+    role: "Business Owner",
     imgSrc: "/assets/images/demo-gradient/user-3.jpg",
   },
   {
-    text: "Beautiful template, nice code and easy to customize. Optimization, structure and pages are very good for SEO basics.",
-    author: "Thomas Johnson",
-    role: "UI/UX designer",
+    text: "RedirectPub provided seamless service and detail-oriented web development. Their team made the process efficient and worry-free.",
+    author: "Adam Peterson",
+    role: "Business Owner",
     imgSrc: "/assets/images/demo-gradient/user-1.jpg",
   },
   {
-    text: "This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality.",
-    author: "Alice Watson",
-    role: "3D artist",
+    text: "We partnered on several WordPress and WooCommerce sites. Great results, responsive team, and very fair pricing throughout.",
+    author: "Adam Peterson",
+    role: "Business Owner",
     imgSrc: "/assets/images/demo-gradient/user-2.jpg",
   },
   {
-    text: "A remarkable model, everything has been thought out with talent, the design, the responsiveness, the various adaptations.",
-    author: "Peter Braun",
-    role: "Business owner",
+    text: "Our project included custom features and theming. RedirectPub impressed with quality, communication, and post-launch support.",
+    author: "Adam Peterson",
+    role: "Business Owner",
     imgSrc: "/assets/images/demo-gradient/user-3.jpg",
   },
 ];
+
 
 export const testimonials4 = [
   {

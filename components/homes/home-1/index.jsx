@@ -80,7 +80,7 @@ export default function Home1({ onePage = false, dark = false }) {
                 </a>
               ) : (
                 <Link
-                  href={`/main-pages-about-1${dark ? "-dark" : ""}`}
+                  href={`/about`}
                   className="link-hover-anim underline align-middle"
                   data-link-animate="y"
                 >
@@ -214,7 +214,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   </a>
                 ) : (
                   <Link
-                    href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
+                    href={`/contact`}
                     className="btn btn-mod btn-large btn-round btn-hover-anim"
                   >
                     <span>start a conversation</span>
@@ -322,7 +322,7 @@ export default function Home1({ onePage = false, dark = false }) {
                     </a>
                   ) : (
                     <Link
-                      href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
+                      href={`/contact`}
                       className="btn btn-mod btn-large btn-round btn-hover-anim"
                     >
                       <span>Start a Project</span>
@@ -361,7 +361,7 @@ export default function Home1({ onePage = false, dark = false }) {
             </div>
             <div className="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
               <Link
-                href={`/main-blog-columns-2col`}
+                href={`/blog`}
                 className="link-hover-anim underline align-middle"
                 data-link-animate="y"
               >

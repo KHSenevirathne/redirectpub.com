@@ -231,7 +231,7 @@ export const mainDemoOnepage = [
   { href: "/", text: "Home", className: "active" },
   { href: "/services", text: "Services" },
   { href: "/our-work", text: "Our Work" },
-  { href: "#contact", text: "For Agencies" },
+  { href: "/for-agencies", text: "For Agencies" },
   { href: "/about", text: "About" },
   { href: "/blog", text: "Blog" },
 ];

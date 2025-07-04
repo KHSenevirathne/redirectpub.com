@@ -46,7 +46,7 @@ export default function Portfolio() {
     <div className="container">
       <div className="row mb-60 mb-md-40">
         <div className="col-lg-5">
-          <h2 className="section-caption mb-xs-10">Our Portfolio</h2>
+          <h2 className="section-caption mb-xs-10">Our Work</h2>
           <h3 className="section-title mb-0">
             <AnimatedText text=" Creativity meets technology here." />
           </h3>
@@ -109,7 +109,7 @@ export default function Portfolio() {
                 </a>
               ) : (
                 <Link
-                  href={`/main-portfolio-single-1/${item.id}`}
+                  href={`/our-work/${item.id}`}
                   className={item.linkClassName}
                 >
                   <div className="work-img">
