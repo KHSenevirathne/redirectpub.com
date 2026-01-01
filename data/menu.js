@@ -1,7 +1,15 @@
 export const strongMultiPages = [
   { href: "/strong-multi-page", text: "Home" },
   { href: "/strong-about", text: "About", className: "active" },
-  { href: "/strong-services", text: "Services" },
+  {
+    href: "/strong-services",
+    text: "Services",
+    subMenu: [
+      { href: "/drone-shoot", text: "Drone Shoot" },
+      { href: "/photography", text: "Photography" },
+      { href: "/printing", text: "Printing" },
+    ],
+  },
   { href: "/strong-portfolio", text: "Portfolio" },
   { href: "/strong-blog", text: "Blog" },
   { href: "/strong-contact", text: "Contact" },
@@ -9,7 +17,15 @@ export const strongMultiPages = [
 export const strongMultiPagesDark = [
   { href: "/strong-multi-page-dark", text: "Home" },
   { href: "/strong-about-dark", text: "About", className: "active" },
-  { href: "/strong-services-dark", text: "Services" },
+  {
+    href: "/strong-services-dark",
+    text: "Services",
+    subMenu: [
+      { href: "/drone-shoot", text: "Drone Shoot" },
+      { href: "/photography", text: "Photography" },
+      { href: "/printing", text: "Printing" },
+    ],
+  },
   { href: "/strong-portfolio-dark", text: "Portfolio" },
   { href: "/strong-blog-dark", text: "Blog" },
   { href: "/strong-contact-dark", text: "Contact" },
@@ -26,7 +42,15 @@ export const strongSinglePages = [
 export const slickMultipages = [
   { href: "/slick-multi-page", text: "Home" },
   { href: "/slick-about", text: "About", class: "active" },
-  { href: "/slick-services", text: "Services" },
+  {
+    href: "/strong-services",
+    text: "Services",
+    subMenu: [
+      { href: "/drone-shoot", text: "Drone Shoot" },
+      { href: "/photography", text: "Photography" },
+      { href: "/printing", text: "Printing" },
+    ],
+  },
   { href: "/slick-portfolio", text: "Portfolio" },
   { href: "/slick-blog", text: "Blog" },
   { href: "/slick-contact", text: "Contact" },
@@ -34,7 +58,15 @@ export const slickMultipages = [
 export const slickMultipagesDark = [
   { href: "/slick-multi-page-dark", text: "Home" },
   { href: "/slick-about-dark", text: "About", class: "active" },
-  { href: "/slick-services-dark", text: "Services" },
+  {
+    href: "/slick-services-dark",
+    text: "Services",
+    subMenu: [
+      { href: "/drone-shoot", text: "Drone Shoot" },
+      { href: "/photography", text: "Photography" },
+      { href: "/printing", text: "Printing" },
+    ],
+  },
   { href: "/slick-portfolio-dark", text: "Portfolio" },
   { href: "/slick-blog-dark", text: "Blog" },
   { href: "/slick-contact-dark", text: "Contact" },
@@ -51,7 +83,16 @@ export const slickOnepage = [
 export const modernMultipage = [
   { id: 1, href: "/modern-multi-page", text: "Home" },
   { id: 2, href: "/modern-about", text: "About", className: "active" },
-  { id: 3, href: "/modern-services", text: "Services" },
+  {
+    id: 3,
+    href: "/modern-services",
+    text: "Services",
+    subMenu: [
+      { href: "/drone-shoot", text: "Drone Shoot" },
+      { href: "/photography", text: "Photography" },
+      { href: "/printing", text: "Printing" },
+    ],
+  },
   { id: 4, href: "/modern-portfolio", text: "Portfolio" },
   { id: 5, href: "/modern-blog", text: "Blog" },
   { id: 6, href: "/modern-contact", text: "Contact" },
@@ -59,7 +100,16 @@ export const modernMultipage = [
 export const modernMultipageDark = [
   { id: 1, href: "/modern-multi-page-dark", text: "Home" },
   { id: 2, href: "/modern-about-dark", text: "About", className: "active" },
-  { id: 3, href: "/modern-services-dark", text: "Services" },
+  {
+    id: 3,
+    href: "/modern-services-dark",
+    text: "Services",
+    subMenu: [
+      { href: "/drone-shoot", text: "Drone Shoot" },
+      { href: "/photography", text: "Photography" },
+      { href: "/printing", text: "Printing" },
+    ],
+  },
   { id: 4, href: "/modern-portfolio-dark", text: "Portfolio" },
   { id: 5, href: "/modern-blog-dark", text: "Blog" },
   { id: 6, href: "/modern-contact-dark", text: "Contact" },
@@ -229,7 +279,15 @@ export const boldOnepage = [
 
 export const mainDemoOnepage = [
   { href: "/", text: "Home", className: "active" },
-  { href: "/services", text: "Services" },
+  {
+    href: "/services",
+    text: "Services",
+    subMenu: [
+      { href: "/drone-shoot", text: "Drone Shoot" },
+      { href: "/photography", text: "Photography" },
+      { href: "/printing", text: "Printing" },
+    ],
+  },
   { href: "/our-work", text: "Our Work" },
   { href: "/for-agencies", text: "For Agencies" },
   { href: "/about", text: "About" },
