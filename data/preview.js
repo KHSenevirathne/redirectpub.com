@@ -82,7 +82,7 @@ export const homeMultipages = [
   },
   {
     id: 11,
-    href: "/strong-multi-page-image-parallax",
+    href: "/-image-parallax",
     imgSrc: "/assets/images/intro/intro-sections/strong-image-parallax.jpg",
     imgAlt: "Image Parallax Intro Section. Strong Design Concept.",
     title: "Image Parallax",
@@ -90,7 +90,7 @@ export const homeMultipages = [
   },
   {
     id: 12,
-    href: "/strong-multi-page-bg-video",
+    href: "/-bg-video",
     imgSrc: "/assets/images/intro/intro-sections/strong-bg-video.jpg",
     imgAlt: "Background Video HTML5 Intro Section. Strong Design Concept.",
     title: "BG Video HTML5",
@@ -556,7 +556,7 @@ export const homesMultipagesDark = [
   },
   {
     id: 11,
-    href: "/strong-multi-page-image-parallax-dark",
+    href: "/-image-parallax-dark",
     imgSrc: "/assets/images/intro/intro-sections/strong-image-parallax.jpg",
     imgAlt:
       "Image Parallax Intro Section. Strong Design Concept. Dark Version.",
@@ -565,7 +565,7 @@ export const homesMultipagesDark = [
   },
   {
     id: 12,
-    href: "/strong-multi-page-bg-video-dark",
+    href: "/-bg-video-dark",
     imgSrc: "/assets/images/intro/intro-sections/strong-bg-video.jpg",
     imgAlt:
       "Background Video HTML5 Intro Section. Strong Design Concept. Dark Version.",
@@ -970,7 +970,7 @@ export const allMultipagesHome = [
   },
   {
     id: 4,
-    href: "/strong-multi-page",
+    href: "/",
     src: "/assets/images/intro/design-concepts/strong.jpg",
     alt: "Strong Design Concept",
     title: "Strong",
@@ -1040,7 +1040,7 @@ export const allMultipagesHome = [
   },
   {
     id: 14,
-    href: "/strong-multi-page-dark",
+    href: "/-dark",
     src: "/assets/images/intro/design-concepts/strong-dark.jpg",
     alt: "Strong Dark Design Concept",
     title: "Strong Dark",

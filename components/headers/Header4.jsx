@@ -12,20 +12,7 @@ export default function Header4({ links }) {
               image size for support of retina screens. See details in the template documentation. *) */}
       <div className="nav-logo-wrap position-static local-scroll">
         <a href="top" className="logo">
-          <Image
-            src="/assets/images/demo-corporate/logo-dark.svg"
-            alt="Your Company Logo"
-            width={106}
-            height={36}
-            className="light-mode-logo"
-          />
-          <Image
-            src="/assets/images/demo-corporate/logo-white.svg"
-            alt="Your Company Logo"
-            width={106}
-            height={36}
-            className="dark-mode-logo"
-          />
+          <h1 className="text-bolder">RedirectPUB</h1>
         </a>
       </div>
       {/* Mobile Menu Button */}

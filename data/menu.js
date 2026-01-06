@@ -1,5 +1,5 @@
 export const strongMultiPages = [
-  { href: "/strong-multi-page", text: "Home" },
+  { href: "/", text: "Home" },
   { href: "/strong-about", text: "About", className: "active" },
   {
     href: "/strong-services",
@@ -15,7 +15,7 @@ export const strongMultiPages = [
   { href: "/strong-contact", text: "Contact" },
 ];
 export const strongMultiPagesDark = [
-  { href: "/strong-multi-page-dark", text: "Home" },
+  { href: "/-dark", text: "Home" },
   { href: "/strong-about-dark", text: "About", className: "active" },
   {
     href: "/strong-services-dark",
@@ -1337,8 +1337,8 @@ export const allHomes = [
         links: [
           { href: "/strong-one-page", text: "One Page" },
           { href: "/strong-one-page-dark", text: "One Page Dark" },
-          { href: "/strong-multi-page", text: "Multi Page" },
-          { href: "/strong-multi-page-dark", text: "Multi Page Dark" },
+          { href: "/", text: "Multi Page" },
+          { href: "/-dark", text: "Multi Page Dark" },
         ],
       },
       {
@@ -1349,9 +1349,9 @@ export const allHomes = [
             href: "/strong-one-page-image-parallax-dark",
             text: "One Page Dark",
           },
-          { href: "/strong-multi-page-image-parallax", text: "Multi Page" },
+          { href: "/-image-parallax", text: "Multi Page" },
           {
-            href: "/strong-multi-page-image-parallax-dark",
+            href: "/-image-parallax-dark",
             text: "Multi Page Dark",
           },
         ],
@@ -1361,8 +1361,8 @@ export const allHomes = [
         links: [
           { href: "/strong-one-page-bg-video", text: "One Page" },
           { href: "/strong-one-page-bg-video-dark", text: "One Page Dark" },
-          { href: "/strong-multi-page-bg-video", text: "Multi Page" },
-          { href: "/strong-multi-page-bg-video-dark", text: "Multi Page Dark" },
+          { href: "/-bg-video", text: "Multi Page" },
+          { href: "/-bg-video-dark", text: "Multi Page Dark" },
         ],
       },
     ],

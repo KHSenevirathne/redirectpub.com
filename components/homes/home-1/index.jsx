@@ -108,14 +108,14 @@ export default function Home1({ onePage = false, dark = false }) {
           <About />
         </div>
       </section>
-      <section
+      {/* <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-2 light-content" : "bg-gray-light-1 "
         }`}
         id="team"
       >
         <Team />
-      </section>
+      </section> */}
       <section
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
