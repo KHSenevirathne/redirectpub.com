@@ -1,17 +1,16 @@
 import AnimatedText from "@/components/common/AnimatedText";
-import Footer4 from "@/components/footers/Footer4";
-import Header4 from "@/components/headers/Header4";
 
 const onePage = false;
 const dark = false;
 import Image from "next/image";
-import { strongMultiPages } from "@/data/menu";
+import { mainDemoOnepage } from "@/data/menu";
 import Link from "next/link";
 import Service from "@/components/homes/home-4/Service";
 import AnimateButton from "@/components/common/AnimateButton";
 import { progressData } from "@/data/skills";
 import { features5 } from "@/data/features";
 import Footer1 from "@/components/footers/Footer1";
+import Header1 from "@/components/headers/Header1";
 
 export const metadata = {
   title: "Printing || Redirect Pub - Professional Web Development Services",
@@ -21,10 +20,10 @@ export const metadata = {
 export default function PrintingPage() {
   return (
     <>
-      <div className="theme-corporate">
+      <div className="theme-main">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar wch-unset">
-            <Header4 links={strongMultiPages} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
 
           <main id="main">
@@ -134,7 +133,7 @@ export default function PrintingPage() {
                     </p>
                     <div className="local-scroll text-center">
                       <Link
-                        href={`/strong-contact${dark ? "-dark" : ""}`}
+                        href={`/contact`}
                         className={`btn btn-mod ${
                           dark ? "btn-dark" : "btn-w"
                         } btn-with-icon btn-circle`}
