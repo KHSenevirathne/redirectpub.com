@@ -289,7 +289,6 @@ export const mainDemoOnepage = [
     ],
   },
   { href: "/our-work", text: "Our Work" },
-  { href: "/for-agencies", text: "For Agencies" },
   { href: "/about", text: "About" },
 ];
 
