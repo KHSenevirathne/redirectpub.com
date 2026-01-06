@@ -3,10 +3,8 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Page Not Found || RedirectPub",
-  description:
-    "The Best Agency Service in UK",
+  title: "Page Not Found || RedirectPub",
+  description: "The Best Agency Service in UK",
 };
 export default function MainAboutPage1() {
   return (
@@ -46,9 +44,9 @@ export default function MainAboutPage1() {
                 <div className="inner-nav desktop-nav">
                   <ul className="clearlist scroll-nav local-scroll justify-content-end">
                     <li className="active">
-                      <a href="mailto:redirectpub@gmail.com">
+                      <a href="mailto:info@redirectpub.com">
                         <i className="mi-email align-center" />
-                        redirectpub@gmail.com
+                        info@redirectpub.com
                       </a>
                     </li>
                     <li>

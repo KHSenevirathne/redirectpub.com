@@ -120,7 +120,7 @@ export default function PhotographyPage() {
                     </p>
                     <div className="local-scroll text-center">
                       <Link
-                        href={`/strong-contact${dark ? "-dark" : ""}`}
+                        href={`/contact`}
                         className={`btn btn-mod ${
                           dark ? "btn-dark" : "btn-w"
                         } btn-with-icon btn-circle`}

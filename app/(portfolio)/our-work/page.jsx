@@ -3,13 +3,11 @@ import ParallaxContainer from "@/components/common/ParallaxContainer";
 import { mainDemoOnepage } from "@/data/menu";
 import Header1 from "@/components/headers/Header1";
 import AnimatedText from "@/components/common/AnimatedText";
-import PortfolioMassonry3 from "@/components/portfolio/PortfolioMassonry3";
+import Image from "next/image";
 
 export const metadata = {
-  title:
-    "Our Work || RedirectPub",
-  description:
-    "The Best Agency Service in UK",
+  title: "Our Work || RedirectPub",
+  description: "The Best Agency Service in UK",
 };
 export default function MainPortfolioPageMasonry3Col() {
   return (
@@ -25,7 +23,7 @@ export default function MainPortfolioPageMasonry3Col() {
                 className="page-section bg-gray-light-1 bg-light-alpha-90 parallax-5"
                 style={{
                   backgroundImage:
-                    "url(/assets/images/full-width-images/section-bg-1.jpg)",
+                    "url('/assets/images/photography- (13).jpg')",
                 }}
               >
                 <div className="container position-relative pt-30 pt-sm-50">
@@ -49,7 +47,10 @@ export default function MainPortfolioPageMasonry3Col() {
                               data-wow-delay="0.6s"
                               data-wow-duration="1.2s"
                             >
-                              Only a small portion of the websites we have created for our incredible clients over the years are included in this presentation. Case studies that highlight our proficiency in front-end development, site design, and platform integrations such as WordPress, Shopify, Hubspot, Craft CMS, and others are included.
+                              Explore our diverse portfolio of photography and
+                              videography projects. From stunning aerial drone
+                              shots to professional event coverage, we bring
+                              your vision to life.
                             </p>
                           </div>
                         </div>
@@ -64,7 +65,25 @@ export default function MainPortfolioPageMasonry3Col() {
             <>
               {/* Section */}
               <section className="page-section">
-                <PortfolioMassonry3 />
+                <div className="container mt-60 mb-60">
+                  <div className="row justify-content-center">
+                    {Array.from({ length: 15 }, (_, i) => i + 1).map((i) => (
+                      <div className="col-md-4 mb-30" key={i}>
+                        <div className="rounded-4 overflow-hidden">
+                          <Image
+                            src={`/assets/images/photography- (${i}).jpg`}
+                            width={800}
+                            height={600}
+                            alt={`Work ${i}`}
+                            className="w-100 object-fit-cover"
+                            style={{ marginBottom: "-15px", display: "block" }}
+                            unoptimized
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </section>
               {/* End Section */}
             </>

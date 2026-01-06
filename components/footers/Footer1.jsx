@@ -46,11 +46,11 @@ export default function Footer1({ dark = false }) {
             </p>
             <div className="clearlinks">
               <strong>T.</strong>
-              <a href="tel:+18376528800">+1 234 567 8910</a>
+              <a href="tel:+18376528800">+44 7944 490083</a>
             </div>
             <div className="clearlinks">
               <strong>E.</strong>
-              <a href="mailto:ibthemes21@gmail.com">redirectpub@gmail.com</a>
+              <a href="mailto:ibthemes21@gmail.com">info@redirectpub.com</a>
             </div>
           </div>
           <div className="col-md-7 offset-md-1 offset-lg-2">

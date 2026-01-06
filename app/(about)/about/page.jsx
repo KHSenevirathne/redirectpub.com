@@ -48,12 +48,33 @@ export default function AboutPage() {
 
             <section className="page-section">
               <div className="container">
-                <div className="row mb-60 mb-xs-40">
-                  <div className="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
-                    <p className="section-descr mb-0">
+                <div className="row align-items-center mb-80 mb-sm-40">
+                  <div className="col-md-6 mb-sm-30">
+                    <div
+                      className="post-prev-img rounded-4 overflow-hidden shadow"
+                      style={{ border: "1px solid #eee" }}
+                    >
+                      <Image
+                        src="/assets/images/about-image.jpg"
+                        width={800}
+                        height={600}
+                        alt="About Highlight"
+                        className="w-100"
+                        style={{ objectFit: "cover" }}
+                        unoptimized
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <h3 className="section-title mb-30">Who We Are</h3>
+                    <p className="section-descr mb-20">
                       We are a passionate team dedicated to capturing the world
-                      from unique perspectives. From aerial drone shots to
-                      high-quality printing, we bring your vision to life.
+                      from unique perspectives.
+                    </p>
+                    <p className="mb-0">
+                      From aerial drone shots to high-quality printing, we bring
+                      your vision to life. Our commitment to quality and
+                      creativity sets us apart in the industry.
                     </p>
                   </div>
                 </div>

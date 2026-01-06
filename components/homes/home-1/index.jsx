@@ -156,7 +156,7 @@ export default function Home1({ onePage = false, dark = false }) {
                   </a>
                 ) : (
                   <Link
-                    href={`/main-pages-contact-1${dark ? "-dark" : ""}`}
+                    href={`/contact`}
                     className="btn btn-mod btn-w btn-large btn-round btn-hover-anim"
                   >
                     <span>Request Price</span>
@@ -174,7 +174,7 @@ export default function Home1({ onePage = false, dark = false }) {
         }`}
         id="portfolio"
       >
-        <Portfolio />
+        {/* <Portfolio /> */}
       </section>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
       <section
@@ -343,38 +343,7 @@ export default function Home1({ onePage = false, dark = false }) {
         <Promo />{" "}
       </section>
       <hr className={`mt-0 mb-0 ${dark ? "white" : ""}`} />
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        }`}
-        id="blog"
-      >
-        <div className="container position-relative">
-          <div className="row mb-60 mb-xs-30">
-            <div className="col-md-6">
-              <h2 className="section-caption mb-xs-10">Our Blog</h2>
-              <h3 className="section-title mb-0">
-                <span className="wow charsAnimIn" data-splitting="chars">
-                  The latest news
-                </span>
-              </h3>
-            </div>
-            <div className="col-md-5 offset-md-1 text-start text-md-end pt-40 pt-sm-20">
-              <Link
-                href={`/blog`}
-                className="link-hover-anim underline align-middle"
-                data-link-animate="y"
-              >
-                Read more in our blog <i className="mi-arrow-right size-18" />
-              </Link>
-            </div>
-          </div>
-          <Blog />
-          {/* Blog Posts Grid */}
 
-          {/* End Blog Posts Grid */}
-        </div>
-      </section>
       <section
         className="page-section bg-dark-1 bg-dark-alpha-90 light-content"
         style={{

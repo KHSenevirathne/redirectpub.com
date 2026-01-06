@@ -13,9 +13,9 @@ export const contactItems = [
   {
     iconClass: "mi-email",
     title: "Email",
-    text: "redirectpub@gmail.com",
+    text: "info@redirectpub.com",
     link: {
-      url: "mailto:redirectpub@gmail.com",
+      url: "mailto:info@redirectpub.com",
       text: "Say Hello",
     },
   },

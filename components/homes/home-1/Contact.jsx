@@ -55,11 +55,11 @@ export default function Contact() {
                 <h4 className="alt-features-title">Say hello</h4>
                 <div className="alt-features-descr clearlinks">
                   <div>
-                    <a href="mailto:redirectpub@gmail.com">
-                      redirectpub@gmail.com
+                    <a href="mailto:info@redirectpub.com">
+                      info@redirectpub.com
                     </a>
                   </div>
-                  <div>+1 234 567 8910</div>
+                  <div>+44 7944 490083</div>
                 </div>
               </div>
             </div>
