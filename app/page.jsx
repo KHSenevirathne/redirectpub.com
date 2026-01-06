@@ -64,9 +64,7 @@ export default function PhotographyPage() {
               <div className="container">
                 <div className="row mb-40 text-center">
                   <div className="col-md-8 offset-md-2">
-                    <h2 className="section-title">
-                      Creativity meets technology here.
-                    </h2>
+                    <h2 className="section-title">Our Specialized Services</h2>
                     <p className="section-descr">
                       Experience world-class visual content creation.
                     </p>
@@ -78,7 +76,7 @@ export default function PhotographyPage() {
                   <div className="col-md-4 mt-30">
                     <div className="post-prev-img">
                       <img
-                        src="https://images.unsplash.com/photo-1527977966376-1c8408f9f108?q=80&w=1000&auto=format&fit=crop"
+                        src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?q=80&w=1000&auto=format&fit=crop"
                         alt="Drone Photography"
                         className="rounded shadow"
                         style={{
@@ -99,7 +97,7 @@ export default function PhotographyPage() {
                   <div className="col-md-4 mt-30">
                     <div className="post-prev-img">
                       <img
-                        src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=1000&auto=format&fit=crop"
+                        src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1000&auto=format&fit=crop"
                         alt="Professional Photography"
                         className="rounded shadow"
                         style={{
@@ -120,7 +118,7 @@ export default function PhotographyPage() {
                   <div className="col-md-4 mt-30">
                     <div className="post-prev-img">
                       <img
-                        src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=1000&auto=format&fit=crop"
+                        src="https://images.unsplash.com/photo-1562564055-71e051d33c19?q=80&w=1000&auto=format&fit=crop"
                         alt="Printing Services"
                         className="rounded shadow"
                         style={{

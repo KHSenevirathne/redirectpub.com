@@ -5,12 +5,14 @@ import Header4 from "@/components/headers/Header4";
 const onePage = false;
 const dark = false;
 import Image from "next/image";
-import { strongMultiPages } from "@/data/menu";
+import { mainDemoOnepage, strongMultiPages } from "@/data/menu";
 import Link from "next/link";
 import Service from "@/components/homes/home-4/Service";
 import AnimateButton from "@/components/common/AnimateButton";
 import { progressData } from "@/data/skills";
 import { features5 } from "@/data/features";
+import Footer1 from "@/components/footers/Footer1";
+import Header1 from "@/components/headers/Header1";
 
 export const metadata = {
   title: "Drone Shoot || Redirect Pub - Professional Web Development Services",
@@ -23,7 +25,7 @@ export default function DroneShootPage() {
       <div className="theme-corporate">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar wch-unset">
-            <Header4 links={strongMultiPages} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
 
           <main id="main">
@@ -246,7 +248,7 @@ export default function DroneShootPage() {
             <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
           </main>
           <footer className="footer-2 pb-50">
-            <Footer4 />
+            <Footer1 />
           </footer>
         </div>{" "}
       </div>

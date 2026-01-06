@@ -5,12 +5,14 @@ import Header4 from "@/components/headers/Header4";
 const onePage = false;
 const dark = false;
 import Image from "next/image";
-import { strongMultiPages } from "@/data/menu";
+import { mainDemoOnepage, strongMultiPages } from "@/data/menu";
 import Link from "next/link";
 import Service from "@/components/homes/home-4/Service";
 import AnimateButton from "@/components/common/AnimateButton";
 import { progressData } from "@/data/skills";
 import { features5 } from "@/data/features";
+import Footer1 from "@/components/footers/Footer1";
+import Header1 from "@/components/headers/Header1";
 
 export const metadata = {
   title: "Photography || Redirect Pub - Professional Web Development Services",
@@ -23,7 +25,7 @@ export default function PhotographyPage() {
       <div className="theme-corporate">
         <div className="page" id="top">
           <nav className="main-nav transparent stick-fixed wow-menubar wch-unset">
-            <Header4 links={strongMultiPages} />
+            <Header1 links={mainDemoOnepage} />
           </nav>
 
           <main id="main">
@@ -84,36 +86,21 @@ export default function PhotographyPage() {
               <Service />
               <div className="container mt-60 mb-60">
                 <div className="row justify-content-center">
-                  <div className="col-md-4 mb-30">
-                    <Image
-                      src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&h=600&auto=format&fit=crop"
-                      width={800}
-                      height={600}
-                      alt="Photography Service 1"
-                      className="w-100 object-fit-cover rounded-4"
-                      unoptimized
-                    />
-                  </div>
-                  <div className="col-md-4 mb-30">
-                    <Image
-                      src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=800&h=600&auto=format&fit=crop"
-                      width={800}
-                      height={600}
-                      alt="Photography Service 2"
-                      className="w-100 object-fit-cover rounded-4"
-                      unoptimized
-                    />
-                  </div>
-                  <div className="col-md-4 mb-30">
-                    <Image
-                      src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?q=80&w=800&h=600&auto=format&fit=crop"
-                      width={800}
-                      height={600}
-                      alt="Photography Service 3"
-                      className="w-100 object-fit-cover rounded-4"
-                      unoptimized
-                    />
-                  </div>
+                  {Array.from({ length: 12 }, (_, i) => i + 1).map((i) => (
+                    <div className="col-md-4 mb-30" key={i}>
+                      <div className="rounded-4 overflow-hidden">
+                        <Image
+                          src={`/assets/images/photography- (${i}).jpg`}
+                          width={800}
+                          height={600}
+                          alt={`Photography Service ${i}`}
+                          className="w-100 object-fit-cover"
+                          style={{ marginBottom: "-15px", display: "block" }}
+                          unoptimized
+                        />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
               <div className="container position-relative z-index-1">
@@ -232,7 +219,7 @@ export default function PhotographyPage() {
             <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
           </main>
           <footer className="footer-2 pb-50">
-            <Footer4 />
+            <Footer1 />
           </footer>
         </div>{" "}
       </div>

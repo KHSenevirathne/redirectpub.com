@@ -11,6 +11,7 @@ import Service from "@/components/homes/home-4/Service";
 import AnimateButton from "@/components/common/AnimateButton";
 import { progressData } from "@/data/skills";
 import { features5 } from "@/data/features";
+import Footer1 from "@/components/footers/Footer1";
 
 export const metadata = {
   title: "Printing || Redirect Pub - Professional Web Development Services",
@@ -232,7 +233,7 @@ export default function PrintingPage() {
             <hr className={`mt-0 mb-0 ${dark ? "white" : ""} `} />
           </main>
           <footer className="footer-2 pb-50">
-            <Footer4 />
+            <Footer1 />
           </footer>
         </div>{" "}
       </div>
