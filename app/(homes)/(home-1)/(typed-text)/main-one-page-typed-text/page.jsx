@@ -19,9 +19,10 @@ export default function Home1TypedTextOnepage() {
     <>
       <div className="theme-main">
         <div className="page" id="top">
-          <nav className="main-nav transparent stick-fixed wow-menubar wch-unset">
+          <nav className="main-nav transparent stick-fixed wow-menubar">
             <Header1 links={mainDemoOnepage} />
           </nav>
+
           <main id="main">
             <section
               className="home-section bg-gradient-gray-light-1 bg-scroll scrollSpysection"

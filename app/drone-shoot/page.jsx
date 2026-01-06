@@ -1,6 +1,4 @@
 import AnimatedText from "@/components/common/AnimatedText";
-import Footer4 from "@/components/footers/Footer4";
-import Header4 from "@/components/headers/Header4";
 
 const onePage = false;
 const dark = false;
@@ -22,9 +20,9 @@ export const metadata = {
 export default function DroneShootPage() {
   return (
     <>
-      <div className="theme-corporate">
+      <div className="theme-main">
         <div className="page" id="top">
-          <nav className="main-nav transparent stick-fixed wow-menubar wch-unset">
+          <nav className="main-nav transparent stick-fixed wow-menubar">
             <Header1 links={mainDemoOnepage} />
           </nav>
 

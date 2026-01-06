@@ -18,9 +18,10 @@ export default function Home1MainDemoOnepage() {
     <>
       <div className="theme-main">
         <div className="page" id="top">
-          <nav className="main-nav transparent stick-fixed wow-menubar wch-unset">
+          <nav className="main-nav transparent stick-fixed wow-menubar">
             <Header1 links={mainDemoOnepage} />
           </nav>
+
           <main id="main">
             <ParallaxContainer
               className="home-section bg-gray-light-1 bg-light-alpha-90 parallax-5 parallax-mousemove-scene scrollSpysection"
