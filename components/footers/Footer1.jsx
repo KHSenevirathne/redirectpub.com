@@ -24,25 +24,12 @@ export default function Footer1({ dark = false }) {
         <div className="row pb-120 pb-sm-80 pb-xs-50">
           <div className="col-md-4 col-lg-3 text-gray mb-sm-50">
             <Link href={"/"} className="mb-30">
-              <Image
-                src="/assets/images/logo-dark.svg"
-                width={105}
-                height={34}
-                className="light-mode-logo"
-                alt="Your Company Logo"
-              />
-
-              <Image
-                src="/assets/images/logo-white.svg"
-                width={105}
-                height={34}
-                className="dark-mode-logo"
-                alt="Your Company Logo"
-              />
+              RedirectPUB
             </Link>
             <p>
-              Integer auctor aliquet martor, sed lorem malesuada eros blandit
-              eget. Proin lacinia mortoc id odio vestibulum.
+              "RedirectPub: A New Perspective on Visual Storytelling." At
+              RedirectPub, we don't just take photos; we redefine how you see
+              the world.
             </p>
             <div className="clearlinks">
               <strong>T.</strong>
