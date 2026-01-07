@@ -23,7 +23,13 @@ export default function Footer1({ dark = false }) {
       <div className="container">
         <div className="row pb-120 pb-sm-80 pb-xs-50">
           <div className="col-md-4 col-lg-3 text-gray mb-sm-50">
-            <h3 className="fw-title">RedirectPUB</h3>
+            <Image
+              src="/assets/images/redirectpub-logo.png"
+              alt="RedirectPUB"
+              width={200}
+              height={50}
+              className="mb-3"
+            />
             <p>
               "RedirectPub: A New Perspective on Visual Storytelling." At
               RedirectPub, we don't just take photos; we redefine how you see

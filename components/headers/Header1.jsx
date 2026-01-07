@@ -13,7 +13,13 @@ export default function Header1({ links }) {
                     image size for support of retina screens. See details in the template documentation. *) */}
       <div className="nav-logo-wrap local-scroll">
         <Link href="/" className="logo">
-          <h1 className="text-bolder">RedirectPUB</h1>
+          <Image
+            src="/assets/images/redirectpub-logo.png"
+            alt="RedirectPUB"
+            width={200}
+            height={50}
+            priority
+          />
         </Link>
       </div>
       {/* Mobile Menu Button */}
