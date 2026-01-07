@@ -31,7 +31,7 @@ export default function Footer1({ dark = false }) {
             </p>
             <div className="clearlinks">
               <strong>T.</strong>
-              <a href="tel:+18376528800">+44 7944 490083</a>
+              <a href="tel:+447944490083">+44 7944 490083</a>
             </div>
             <div className="clearlinks">
               <strong>E.</strong>
