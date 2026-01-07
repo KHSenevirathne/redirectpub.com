@@ -38,7 +38,8 @@ export default function Hero1() {
                   data-wow-delay="0.6s"
                   data-wow-duration="1.2s"
                 >
-                  Providing reliable, scalable, and efficient web development services.
+                  Providing reliable, scalable, and efficient web development
+                  services.
                 </p>
                 <div
                   className="local-scroll mt-n10 wow fadeInUp wch-unset"
