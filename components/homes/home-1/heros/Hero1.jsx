@@ -34,7 +34,7 @@ export default function Hero1() {
                 </h1>
 
                 <p
-                  className="section-descr mb-50 wow fadeInUp"
+                  className="section-descr mb-50 wow fadeInUp text-white-custom"
                   data-wow-delay="0.6s"
                   data-wow-duration="1.2s"
                 >

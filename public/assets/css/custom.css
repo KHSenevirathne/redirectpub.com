@@ -98,3 +98,6 @@ a {
 html {
   scroll-behavior: smooth !important;
 }
+.text-white-custom {
+  color: #e5e4e2 !important;
+}
